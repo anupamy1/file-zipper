@@ -1,0 +1,6 @@
+PS C:\Users\anupa\OneDrive\Desktop\file-zipper-main\file-zipper-main> g++ -o encode encode.cpp huffman.cpp    
+PS C:\Users\anupa\OneDrive\Desktop\file-zipper-main\file-zipper-main> ./encode inputFile.txt compressed.huf   
+Compressed successfully
+PS C:\Users\anupa\OneDrive\Desktop\file-zipper-main\file-zipper-main> g++ -o decode decode.cpp huffman.cpp    
+PS C:\Users\anupa\OneDrive\Desktop\file-zipper-main\file-zipper-main> ./decode compressed.huf decompressed.txt
+Decompressed successfully
